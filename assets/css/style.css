@@ -1,0 +1,232 @@
+.clearfix:after { 
+  content:"";
+  display: table;
+  clear: both;
+
+}
+
+/* * {box-sizing: border-box; text-align:center;}  */
+
+
+
+body {
+  width: 100%;
+  margin: 1% auto;
+  background-color: black;
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  
+}
+
+li {
+  display: inline;
+    
+}
+
+.headercontainer {
+  border-bottom: 2px solid #cccccc;
+  background-color: #ffffff;
+  position: relative;
+  margin-top: -42px;
+  height: 109px;
+  
+  
+
+  
+  
+}
+
+#header1 {
+  background-color: #4aaaa5;
+  float: left;
+  padding: 25px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #ffffff;
+  position: absolute;
+  margin-left: 150px;
+  /* left: 351px; */
+  
+
+  
+   
+  
+ }
+
+ #p1{
+   margin: 10px;
+   padding-top: 10px;
+ }
+
+ #p2 {
+   margin: 10px;
+ }
+
+.nav1 {
+  color: #777777;
+  float: right;
+  text-align: center;
+  margin-top: 60px;
+  margin-right: 600px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+
+
+  /* Article and Nav2 container */
+
+.wrapper1 {
+  max-width: 960px;
+  min-width: 80%;
+  margin: 0 auto;
+}
+
+.wrapper2 {
+  max-width: 960px;
+  min-width: 80%;
+  margin: 0 auto;
+}  
+
+.maincontentcontainer{
+  background-color: #ffffff;
+  border-bottom: 15px solid #4aaaa5;
+  background: url(assets/images/dust_scratches.png);
+  
+}
+
+.article1 {
+  float: left;
+  color: #777777;
+  /* padding: 10px; */
+  width: 650px;
+  height: 350px;
+  background-color:#ffffff;
+  /* margin: 100px; */
+  margin-bottom: 100px;
+  margin-top: 50px;
+  margin-left: 150px;
+  padding-left: 10px;
+  padding-right: 10px;
+ }
+
+
+#header2 {
+border-bottom: 2px solid #4aaaa5;
+font-family: Georgia, 'Times New Roman', Times, serif;
+color: #4aaaa5;
+padding-left: 10px;
+padding-right: 10px;
+
+/* float: left; */
+
+}
+
+
+.nav2 {
+  float: right;
+  background-color: #ffffff;
+    /* margin: 40px; */
+    width: 270px;
+    height: 190px;
+    text-align: center;
+    margin-top: 53px;
+    margin-right: 500px;
+    color: #4aaaa5;
+    
+}
+
+#header3 {
+  border-bottom: 2px solid #777777;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: #4aaaa5;
+
+}
+
+#footer {
+  color: #cccccc;
+  text-align: center;
+  background-color: #777777;
+  padding: 25px;
+  
+
+}
+
+img {
+  float: left;
+  margin: 10px;
+}
+
+
+/* This is my old CSS styling 1-31
+*/
+/*h1 {
+  float: left;
+  background-color: #4aaaa5;
+  padding: 10px;
+  height: 50px;
+  margin-left: 100px;
+  margin-bottom: 0;
+  margin-top: 0;
+  color: #ffffff;
+}
+
+ul {
+  float: right;
+}
+
+li {
+  float: left;
+  padding: 5px;
+  list-style: none;
+   
+}
+
+header {
+  border-bottom: 2px solid #cccccc;
+  background-color: #ffffff;
+  
+}
+
+article {
+  float: left;
+  background-color:#ffffff;
+  color:#4aaaa5;
+  width: 400px;
+}
+
+nav {
+  float: right;
+  background-color:#ffffff;
+  color: #cccccc;
+  margin-right: 50px;
+}
+
+#maincontent nav{
+  background-color: #ffffff;
+  width: 270px;
+  color: #4aaaa5;
+
+}
+
+footer {
+ background-color: darkgrey;
+ text-align: center;
+ height: 50px;
+ padding-top: 20px;
+ 
+
+
+}
+
+#maincontent {
+  border-bottom: 5px solid #4aaaa5;
+  background-color: #dddddd;
+  
+}
+*/
+
