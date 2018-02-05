@@ -1,191 +1,167 @@
-/* * {box-sizing: border-box; text-align:center;}  */
 
-.clearfix:after { 
-content:"";
-display: table;
-clear: both;
 
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-/* @media screen and (max-width: 960px) {
-    body {
-         
-        background-color: blue;    
-    }
+
+/*** HEADER CSS BEGIN */
+
+#wrapper {
+    width: 100%;
+    border-bottom: 5px solid #cccccc;
 }
 
-@media screen and (min-width: 480px)  {
-    
-    body {
-        width: 100%;
-margin: 1% auto;
-background-color: black;
-    }
-    
-} */
-
-
-/* body {
-width: 100%;
-margin: 1% auto;
-background-color: black;
-} */
-
-
-
-/* ALL CONTENT ID & CLASSES BELOW */
-
-
-/* HEADER CSS BEGIN */
-
-.headercontainer {
-border-bottom: 2px solid #cccccc;
-background-color: #ffffff;
-position: relative;
-margin-top: -42px;
-height: 109px;
-
+#headwrapper {
+    width: 960px;
+    margin: auto;
 }
-
-#header1 {
-background-color: #4aaaa5;
-float: left;
-padding: 25px;
-font-family: Georgia, 'Times New Roman', Times, serif;
-color: #ffffff;
-position: absolute;
-display: inline;
-margin-left: 150px
-}
-
-ul {
-display: inline;
-margin: 0;
-padding: 0;
-}
-
-li {
-display: inline;
-font-family: Arial, Helvetica, sans-serif;
-font-size: 20px;
  
-
+header{ 
+    background-color:#ffffff;
+    height: 75px;
+    
 }
 
-.nav1 {
-color: #777777;
-float: right;
-text-align: center;
-margin-top: 60px;
-margin-right: 200px;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-position: relative;
-display: inline;
-font-weight: bold;
+h1 {
+    background-color:#4aaaa5;
+    float: left;
+    padding: 25px;
+    height: 25px;
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+header nav {
+    float: right;
+    padding: 25px;
+       
+}
+
+nav ul li {
+    display: inline;
+    
+}
+
+a:link {
+    color: grey;
+}
+
+a:visited {
+    color: grey;
 }
 
 /* END HEADER CSS */
 
 
-/* MAIN CONTENT CSS BEGIN */
+/*** MAIN-CONTENT BEGIN */
 
-.wrapper2 {
-max-width: 960px;
-min-width: 80%;
-margin: 0 auto;
-}  
-
-.maincontentcontainer{
-background-color: #ffffff;
-border-bottom: 15px solid #4aaaa5;
-background: url(assets/images/dust_scratches.png);
-}
-
-.article1 {
-float: left;
-color: #777777;
-width: 650px;
-height: 600px;
-background-color:#ffffff;
-margin-bottom: 50px;
-margin-top: 50px;
-margin-left: 20px;
-padding-left: 10px;
-padding-right: 10px;
-display: inline;
-position: relative;
-}
-
-
-#header2 {
-border-bottom: 2px solid #4aaaa5;
-font-family: Georgia, 'Times New Roman', Times, serif;
-color: #4aaaa5;
-padding-left: 10px;
-padding-right: 10px;
+.main-content {
+    border-bottom: 5px solid grey;
+   overflow: hidden;
 
 }
 
-img {
-float: left;
-margin: 10px;
+.inner-content  {
 
+    width: 960px;
+    /* height: 600px; */
+    margin: auto;
+ 
+    }
+
+article {
+    width: 610px;
+    height: 500px;
+    float: left;
+    background-color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+       
 }
 
+h2 {
 
-#p1{
-margin: 10px;
-padding-top: 10px;
+    padding: 10px;
+    border-bottom: 3px solid #dddddd;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    overflow: hidden;
+    font-size: 30px;
+    font-weight: bold;
+}
+ 
+article img {
+    float: left;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+ }
+
+
+#p1 {
+    margin-top: 20px;    
 
 }
 
 #p2 {
-margin: 10px;
-
+    margin-top: 20px;
 }
 
-.nav2 {
+#nav2 {
     float: right;
-    background-color: #ffffff;
     width: 270px;
-    height: 190px;
+    height: 270px;
+    background-color: white;
+    margin-top: 30px;
+}
+
+
+/* END MAIN-CONTENT BEGIN */
+
+
+footer {
+    background-color: #4aaaa5;
     text-align: center;
-    margin-top: 50px;
-    margin-left: 110px;
-    color: #4aaaa5;
-    display: inline;
-    position: absolute;
-        
-    }
-    
-
-#header3 {
-    border-bottom: 2px solid #777777;
-    margin-left: 5px;
-    margin-right: 5px;
-    color: #4aaaa5;
-    
-    }
-    
-a:link {
-    color: #777777;
-
-}
-
-a:visited {
-    color: #777777;
+    padding: 25px;
 }
 
 
-/* END MAIN CONTENT CSS */
-
-/* FOOTER CSS */
-#footer {
-color: #cccccc;
-text-align: center;
-background-color: #777777;
-padding: 25px;
-
-}
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* * {box-sizing: border-box; text-align:center;}  */
+
+/* .clearfix:after { 
+content:"";
+display: table;
+clear: both;
+} */
