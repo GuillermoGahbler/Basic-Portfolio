@@ -116,11 +116,25 @@ article img {
 
 #nav2 {
     float: right;
-    width: 270px;
-    height: 270px;
+    width: 240px;
+    height: 140px;
     background-color: white;
     margin-top: 30px;
+    padding: 20px;
+    
 }
+
+
+h3{
+    padding: 10px;
+    border-bottom: 3px solid #dddddd;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    overflow: hidden;
+    font-size: 20px;
+    font-weight: bold;
+}
+
 
 
 /* END MAIN-CONTENT BEGIN */
