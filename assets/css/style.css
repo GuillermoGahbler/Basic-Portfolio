@@ -216,14 +216,11 @@ body {
 
 
 .img-container {
-    position: relative;
+    /* position: relative; */
     width: 100%;
        
 }
 
-#images {
-    break-after: auto;
-}
 
 
 #h3hangman {
@@ -235,7 +232,7 @@ body {
     padding: 10px;
     border: none;
     margin-top: 170px;
-    font-size: 18px;
+    font-size: 16px;
     position: absolute;
 }
 
@@ -249,7 +246,7 @@ body {
     padding: 10px;
     border: none;
     margin-top: 170px;
-    font-size: 18px;
+    font-size: 16px;
     position: absolute;
     margin-left: 220px;
 }
@@ -265,12 +262,42 @@ body {
     padding: 10px;
     border: none;
     margin-top: 410px;
-    font-size: 18px;
+    font-size: 16px;
     position: absolute;
 }
 
 #rutgers {
-     
+    
+    float: left;
+    width: 180px;
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:#4aaaa5;
+    padding: 10px;
+    border: none;
+    margin-top: 410px;
+    font-size: 16px;
+    position: absolute;
+    margin-left: 220px;
+    text-align: center;
+
+}
+
+#rock {
+    
+    float: left;
+    width: 180px;
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:#4aaaa5;
+    padding: 10px;
+    border: none;
+    margin-top: 650px;
+    font-size: 16px;
+    position: absolute;
+    /* margin-left: 220px; */
+    text-align: center;
+
 }
 
 
