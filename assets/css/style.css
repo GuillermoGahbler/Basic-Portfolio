@@ -265,6 +265,22 @@ h4 {
     text-align: center;
 }
 
+#giphy {
+    float: left;
+    width: 180px;
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #4aaaa5;
+    padding: 10px;
+    border: none;
+    margin-top: 650px;
+    font-size: 16px;
+    position: absolute;
+    margin-left: 220px;
+    text-align: center;
+}
+
+
 /* * {box-sizing: border-box; text-align:center;}  */
 
 /* .clearfix:after { 
